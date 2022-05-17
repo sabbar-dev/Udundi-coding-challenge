@@ -1,0 +1,17 @@
+@mixin readmore_btn{
+    font-family: $secondary-font;
+    color: $secondary-color;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 17px 56.5px;
+    background-image: linear-gradient(to right, #611818, #722d25, #824034, #935343, #a36754);
+    @media only screen and (max-width:767px){
+        font-size: 16px;
+        line-height: 21px;
+        text-transform: uppercase;
+        padding: 15px 30px;
+    }
+}
